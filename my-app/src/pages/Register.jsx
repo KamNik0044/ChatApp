@@ -14,7 +14,7 @@ const Register = () => {
           <input required type="file" />   
           <button>Sign up</button>
         </form>
-        <p>Do you have an account?</p>
+        <p>Do you have an account? Login</p>
       </div>
     </div>
   )

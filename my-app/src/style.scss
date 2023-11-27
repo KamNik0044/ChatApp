@@ -108,9 +108,9 @@
         display: flex;
         overflow: hidden;
 
-        // @include tablet {
-        //     width: 90%;
-        // }
+        @include tablet {
+            width: 90%;
+        }
 
         .sidebar {
             flex: 1;
@@ -129,9 +129,9 @@
                 .logo {
                     font-weight: bold;
 
-                    // @include tablet {
-                    //     display: none;
-                    // }
+                    @include tablet {
+                        display: none;
+                    }
                 }
 
                 .user {
@@ -153,10 +153,10 @@
                         border: none;
                         cursor: pointer;
 
-                        // @include tablet {
-                        //     position: absolute;
-                        //     bottom: 10px;
-                        // }
+                        @include tablet {
+                            position: absolute;
+                            bottom: 10px;
+                        }
                     }
                 }
             }
